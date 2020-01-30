@@ -1,0 +1,155 @@
+/*code für index*/
+
+*{
+    box-sizing: content-box;
+    font-family:"Comic Sans MS"; /*schrift ändern*/
+}
+
+/* The animation code */
+
+@-webkit-keyframes changecolor {
+    0%{background-color: hsla(100,50%,50%,1)}
+    50%{background-color: hsla(200,50%,50%,1)}
+    100%{background-color: hsla(100,50%,50%,1)}
+}
+
+html{
+    background-color: hsla(100,50%,50%,1);/*hintergrund eine farbe im hexadezimal code geben*/
+    animation-name: changecolor;
+    animation-duration:4s infinite;
+    -webkit-animation:changecolor 4s infinite; /* farbe ständig andern in einem interval */
+    }
+
+header{
+    text-align:center; /*text position*/
+    background-color: hsla(80,70%,70%,1);
+ }
+
+img{
+    width: 60%;/*weite der dieses Element einnimmt, die */
+    padding:0;
+    margin: 0;
+}
+
+h1{
+    display:none;
+}
+
+ul{
+    text-align: center;
+    background-color:
+    hsla(100,50%,70%,1);
+    margin: 0;
+}
+
+li{
+    display:inline-block;
+    border: 0;
+    margin: 0;
+}
+
+.nav:hover{
+    background-color: hsla(60,100%,50%,1);
+   /*background-color: hsla(275,100%,40%,1);color: hsla(0,0%,100%,1);*/
+}
+
+article{
+    border: solid 5px;
+    border-color: hsla(275,100%,40%,1);
+    background-color: hsla(100,50%,50%,1);
+}
+
+.rezepte1,.rezepte2,.rezepte3{
+}
+
+.wichtig{
+    border-bottom: solid 1px;
+    width: 245px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/*code für Blogger*/
+
+
+
+.info{
+    /*position: relative*/
+    display: grid;
+    border: solid 2px hsla(275,100%,40%,1);
+}
+
+.info{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mahlzeit{
+       grid-column:2/3;
+       text-align: center;
+}
+
+.Information{
+    width:90%;
+}
+
+/*code für recipe*/
+
+.zutaten{
+    display: block;
+    border:0;
+    margin: 1% auto;
+    background-color: hsla(100,50%,70%,1);
+}
+
+ol{
+    display: block;
+    border:0;
+    padding: 0;
+    margin: 0;
+    background-color: hsla(100,50%,70%,1);
+}
+
+div{
+    display: grid;
+}
+
+div{
+    grid-template-columns: 1fr 1fr;
+}
+
+.title{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.foto{
+    width:100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.datum{
+    text-align: right;
+    font-size:75%;
+    padding:0;
+    margin-top: 
+}
+
+#neu{
+    text-align: center;
+    background-color: hsla(60,100%,50%,0.8);
+}
+
+/*code für umfrage*/
+
+fieldset{
+    text-align: center;
+    width:100%;
+    margin:0.5em auto;
+}
+
+textarea{
+    width:100%;
+}
+

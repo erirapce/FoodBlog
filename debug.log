@@ -1,0 +1,1 @@
+[0531/170331.280:ERROR:file_io_win.cc(243)] SetEndOfFile: Der Vorgang ist bei einer Datei mit einem geöffneten Bereich, der einem Benutzer zugeordnet ist, nicht anwendbar. (0x4C8)
